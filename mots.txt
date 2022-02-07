@@ -1,0 +1,6 @@
+manger
+jouer
+champion
+combat
+combatant
+regard

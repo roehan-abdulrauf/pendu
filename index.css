@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+}
+header {
+  background-color: aquamarine;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size:2.2rem;
+  padding: 3% 0 3% 0%;
+}
+
+.navhover:hover {
+  color: rgb(250, 14, 14);
+}
+
+a {
+  text-decoration: none;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.paddingtop15 {
+  padding-top: 15%;
+}
+
+.paddingtop10 {
+  padding-top: 12%;
+}
+
+.paddingtop5 {
+  padding-top: 5%;
+}
+
+.paddingbottom4{
+  padding-bottom: 4%;
+}
+
+.fontsize-rem1 {
+  font-size: 2.5rem;
+}
+
+.fontsize-rem2 {
+  font-size: 2.5rem;
+}
+
+.border {
+  border: 5% solid black;
+}
+
+.new-coontinuerP {
+  transform: translate(-50%, 0);
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: aquamarine;
+  background: #31389f;
+  padding: 15px 30px;
+  font-family: "Bebas Neue";
+  letter-spacing: 2.5px;
+  border-radius: 10px;
+}
+
+.new-coontinuerP:hover{
+  color: aquamarine;
+  background: #31389f;
+  filter: drop-shadow(10px 10px 4px #4444dd);
+  transition-delay: 0.1s;
+}
+
+.continuerPos {
+  position: absolute;
+  top: 52vh;
+  left: 40%;
+}
+
+.nouvellePos {
+  position: absolute;
+  top: 52vh;
+  left: 60%;
+}
+
+.nouvellePos2 {
+  position: absolute;
+  top: 60vh;
+  left: 50%;
+}
+
+.RecomPos {
+  margin-left: 45%;
+  transform: translate(-50%, 0);
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: aquamarine;
+  background: #31389f;
+  padding: 15px 30px;
+  font-family: "Bebas Neue";
+  border-radius: 10px;
+}
+
+.RecomPos:hover{
+  color: aquamarine;
+  background: #31389f;
+  filter: drop-shadow(10px 10px 4px #4444dd);
+  transition-delay: 0.1s;
+}
+
+.recommencerPos {
+  position: absolute;
+  top: 60vh;
+  left: 50%;
+}
+
+.Alphabet input {
+  padding: 8px 15px;
+  margin: 6px;
+  background: rgba(141, 232, 190, 0.32);
+  font-size: 1.3rem;
+  transition-duration: 0.2s;
+}
+.Alphabet input:hover {
+  background: #31389f;
+  filter: sepia(60%);
+  box-shadow: 3px 3px red, -3px -3px olive;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img{
+  width:20%;
+  padding-left: 37%;
+}
+
+.motcorrect{
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: rgb(172, 99, 11);
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
